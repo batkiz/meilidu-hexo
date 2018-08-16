@@ -11,7 +11,7 @@
       <link rel="alternate" href="<%- theme.rss %>" title="<%= config.title %>" type="application/atom+xml">
 	<% } %>
 	<% if (page.mathjax) { %>
-		<%- partial('_widgets/mathjax') %>
+		<script src="https://cdn.bootcss.com/mathjax/2.7.4/MathJax.js?config=Tex-MML-AM_CHTML" async></script>
 	<% } %>	
 </head>
 
