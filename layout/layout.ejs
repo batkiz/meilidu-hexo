@@ -9,7 +9,10 @@
 	<link rel="stylesheet" href="/css/style.css" />
 	<% if (theme.rss){ %>
       <link rel="alternate" href="<%- theme.rss %>" title="<%= config.title %>" type="application/atom+xml">
-    <% } %>
+	<% } %>
+	<% if (page.mathjax) { %>
+		<%- partial('_widget/mathjax') %>
+	<% } %>	
 </head>
 
 <body>
