@@ -7,6 +7,10 @@ widgets:
  - greeting
  - site_links
 
+analytics:
+    google_site_id:
+    baidu_site_id:
+
 rss: /atom.xml
 
 readMore: ...read more
